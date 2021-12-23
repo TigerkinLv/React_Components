@@ -1,0 +1,39 @@
+.stepLine{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  .stepItem{
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    flex-grow: 2;
+    .stepNode{
+      width: 24px;
+      height: 24px;
+      background-color: #dcdcdc;
+      border-radius: 50%;
+      margin: 0 auto 6px;
+      position: relative;
+      z-index: 100;
+    }
+    .passStep{
+      background-color: #fff;
+      background-image: url("./images/dui.png");
+      background-position: center center;
+      background-size: 100% 100%;
+    }
+    .stepName{
+      word-wrap: break-word;
+    }
+    .gapLine{
+      position: absolute;
+      top: 12px;
+      left: -50%;
+      width: 100%;
+      height: 1px;
+      background-color: #dcdcdc;
+      z-index: 99;
+    }
+  }
+}
