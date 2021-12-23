@@ -28,7 +28,7 @@ export default class LinePicker extends Component {
   }
 
 
-  onOkHandle = (value, extend) => {
+  onOkHandle = (_, extend) => {
     this.setState({
       visible: false,
       value: extend[0].label

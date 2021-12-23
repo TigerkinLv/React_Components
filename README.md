@@ -1,5 +1,5 @@
 # React_Components
-React 组件库
+React 组件库,部分组件基于antd-mobile5
 
 
 ### prop-types 中常见类型

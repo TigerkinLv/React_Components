@@ -25,7 +25,7 @@ export default class LinePickerDemo extends Component {
 
     return (
       <div>
-        <LinePicker title="测试title" data={testData} onChoose={this.chooseData} />
+        <LinePicker title="测试title" necessary data={testData} onChoose={this.chooseData} />
       </div>
     )
   }
