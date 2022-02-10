@@ -1,0 +1,33 @@
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #fff;
+  margin: 12px 0;
+  .labelTxt{
+    color: #999;
+    font-size: 13px;
+  }
+  .left{
+    .title{
+      color: #333;
+      font-size: 15px;
+      margin-bottom: 10px;
+      width: 250px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .marginR10{
+      margin-right: 20px;
+      display: inline-block;
+    }
+  }
+  .right{
+    .arrowR{
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+  }
+}

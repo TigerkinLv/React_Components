@@ -1,0 +1,44 @@
+.tabsTitle{
+  width: 165px;
+  height: 36px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .title{
+    font-size: 18px;
+  }
+  @mixin bean{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(63,135,243,0.5);
+  }
+  .leftBean{
+    @include bean;
+    margin-right: 10px;
+    box-shadow: -3px 0 rgba(63,135,243,0.3)
+  }
+  .rightBean{
+    @include bean;
+    margin-left: 10px;
+    box-shadow: 3px 0 rgba(63,135,243,0.3)
+  }
+}
+.tabsTitle.active{
+  background-color: #3F87F3;
+  color: #fff;
+  @mixin bean {
+    background-color: #fff;
+  }
+  .leftBean{
+    @include bean;
+    box-shadow: -3px 0 rgba(255,255,255,0.7);
+  }
+  .rightBean{
+    @include bean;
+    box-shadow: 3px 0 rgba(255,255,255,0.7);
+  }
+}

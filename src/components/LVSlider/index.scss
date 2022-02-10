@@ -1,0 +1,13 @@
+.lvSlider{
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  flex: 1;
+  .sliderItem{
+    height: 80px;
+    margin-right: 12px;
+    img{
+      height: 100%;
+    }
+  }
+}
