@@ -7,6 +7,11 @@ import StepLineDemo from "./containers/StepLineDemo";
 import LineItemDemo from "./containers/LineItemDemo";
 import LineTextDemo from "./containers/LineTextDemo";
 import LVCardDemo from "./containers/LVCardDemo";
+import LVListDemo from "./containers/LVListDemo";
+import ListItemDemo from "./containers/ListItemDemo";
+import LVSliderDemo from "./containers/LVSliderDemo";
+import LVTabsDemo from "./containers/LVTabsDemo";
+import NewsItemDemo from "./containers/NewsItemDemo";
 
 
 const routes = [
@@ -71,6 +76,41 @@ const routes = [
     component: LVCardDemo,
     meta: {
       title: "卡片组件",
+    }
+  },
+  {
+    path: "/lv-list-demo",
+    component: LVListDemo,
+    meta: {
+      title: "列表容器组件",
+    }
+  },
+  {
+    path: "/lv-item-demo",
+    component: ListItemDemo,
+    meta: {
+      title: "列表条目组件(带标签)",
+    }
+  },
+  {
+    path: "/lv-slider-demo",
+    component: LVSliderDemo,
+    meta: {
+      title: "滑块组件",
+    }
+  },
+  {
+    path: "/lv-tabs-demo",
+    component: LVTabsDemo,
+    meta: {
+      title: "tab组件",
+    }
+  },
+  {
+    path: "/news-item-demo",
+    component: NewsItemDemo,
+    meta: {
+      title: "新闻组件",
     }
   },
 ]

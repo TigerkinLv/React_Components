@@ -19,6 +19,11 @@ export default class Home extends Component {
           <NavLink to="/line-item-demo" className="navLink">列表条目组件</NavLink>
           <NavLink to="/line-text-demo" className="navLink">文本条目组件</NavLink>
           <NavLink to="/lv-card-demo" className="navLink">卡片组件</NavLink>
+          <NavLink to="/lv-list-demo" className="navLink">列表容器组件</NavLink>
+          <NavLink to="/lv-item-demo" className="navLink">列表条目组件(带标签)</NavLink>
+          <NavLink to="/lv-slider-demo" className="navLink">滑块组件</NavLink>
+          <NavLink to="/lv-tabs-demo" className="navLink">tab组件</NavLink>
+          <NavLink to="/news-item-demo" className="navLink">新闻组件</NavLink>
         </div>
       </Fragment>
     )
