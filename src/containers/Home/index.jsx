@@ -24,6 +24,7 @@ export default class Home extends Component {
           <NavLink to="/lv-slider-demo" className="navLink">滑块组件</NavLink>
           <NavLink to="/lv-tabs-demo" className="navLink">tab组件</NavLink>
           <NavLink to="/news-item-demo" className="navLink">新闻组件</NavLink>
+          <NavLink to="/lv-tabs-one-demo" className="navLink">tabs组件类型1</NavLink>
         </div>
       </Fragment>
     )

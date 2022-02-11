@@ -12,6 +12,7 @@ import ListItemDemo from "./containers/ListItemDemo";
 import LVSliderDemo from "./containers/LVSliderDemo";
 import LVTabsDemo from "./containers/LVTabsDemo";
 import NewsItemDemo from "./containers/NewsItemDemo";
+import LVTabsOneDemo from "./containers/LVTabsOneDemo";
 
 
 const routes = [
@@ -111,6 +112,13 @@ const routes = [
     component: NewsItemDemo,
     meta: {
       title: "新闻组件",
+    }
+  },
+  {
+    path: "/lv-tabs-one-demo",
+    component: LVTabsOneDemo,
+    meta: {
+      title: "tabs组件类型1",
     }
   },
 ]

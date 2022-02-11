@@ -1,0 +1,33 @@
+.lvTabsOne{
+  background-color: #fff;
+  margin: 30px 16px 10px;
+  padding: 35px 16px 16px;
+  border-radius: 8px;
+  position: relative;
+  .tabTitle{
+    width: 88%;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 1px #ccc, 0 0 1px #ccc, 1px 0 1px #ccc,1px 0 1px #ccc;
+    box-sizing: border-box;
+    .arrow{
+      height: 12px;
+    }
+    position: absolute;
+    top: -20px;
+    left:50%;
+    transform: translateX(-50%);
+    .title{
+      font-size: 14px;
+      color: #333;
+    }
+    .active{
+      font-size: 16px;
+      color: #70A5E5;
+    }
+  }
+}
