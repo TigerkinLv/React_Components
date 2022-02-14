@@ -15,8 +15,8 @@ export default class ListItemDemo extends Component {
   render() {
     return (
       <div className='listBox'>
-        <ListItem title="测试标题" label1="测试label1" label2="测试label2" rightLabelTxt="右侧的文本" rightImg={rightPic} onClick={this.clickHandle} />
-        <ListItem title="测试标题" label1="测试label1" label2="测试label2" rightLabelTxt="右侧的文本" rightImg={rightImg} rightImgWidth="6px" />
+        <ListItem title="测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题" label1="测试label1" label2="测试label2" rightLabelTxt="右侧的文本" rightImg={rightPic} onClick={this.clickHandle} />
+        <ListItem title="测试标题" label1="测试label1" label2="测试label2测试label2测试label2测试label2" rightLabelTxt="右侧本" rightImg={rightImg} rightImgWidth="6px" />
       </div>
     )
   }

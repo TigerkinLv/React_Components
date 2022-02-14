@@ -13,7 +13,7 @@ import LVSliderDemo from "./containers/LVSliderDemo";
 import LVTabsDemo from "./containers/LVTabsDemo";
 import NewsItemDemo from "./containers/NewsItemDemo";
 import LVTabsOneDemo from "./containers/LVTabsOneDemo";
-
+import ListCardWithTagDemo from "./containers/ListCardWithTagDemo";
 
 const routes = [
   {
@@ -87,7 +87,7 @@ const routes = [
     }
   },
   {
-    path: "/lv-item-demo",
+    path: "/list-item-demo",
     component: ListItemDemo,
     meta: {
       title: "列表条目组件(带标签)",
@@ -119,6 +119,13 @@ const routes = [
     component: LVTabsOneDemo,
     meta: {
       title: "tabs组件类型1",
+    }
+  },
+  {
+    path: "/list-card-tag-demo",
+    component: ListCardWithTagDemo,
+    meta: {
+      title: "带标签的列表",
     }
   },
 ]

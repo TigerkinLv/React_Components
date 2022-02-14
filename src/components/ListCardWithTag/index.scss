@@ -1,0 +1,26 @@
+.lv_listCardWithTag{
+  margin: 45px 16px 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(153, 153, 153, 0.2);
+  padding: 20px 12px 10px;
+  position: relative;
+  .tag{
+    position: absolute;
+    left: -16px;
+    top: -35px;
+    z-index: 99;
+  }
+  .tagImg{
+    width: 128px;
+    vertical-align: top;// 清楚图片底部的3像素
+  }
+  .tagTxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    color: #fff;
+  }
+}
