@@ -1,13 +1,21 @@
 .lvSlider{
-  width: 100%;
+  // width: 100%;
+  margin: 16px;
+  box-sizing: border-box;
   overflow: scroll;
   display: flex;
   flex: 1;
   .sliderItem{
-    height: 80px;
     margin-right: 12px;
-    img{
+    &:last-child{
+      margin-right: 0;
+    }
+    .slide{
+      position: relative;
       height: 100%;
+      img{
+        height: 100%;
+      }
     }
   }
 }

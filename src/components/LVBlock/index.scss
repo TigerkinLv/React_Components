@@ -1,0 +1,37 @@
+.LVBlock{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 16px;
+  .lvBlockItem{
+    text-align: center;
+    box-sizing: border-box;
+    .iconImg{
+      width: 100%;
+    }
+    .title{
+      color: #333;
+    }
+  }
+}
+
+.col3{
+  .lvBlockItem{
+    width: 33.33%;
+  }
+}
+.col4{
+  .lvBlockItem{
+    width: 25%;
+  }
+}
+.col5{
+  .lvBlockItem{
+    width: 20%;
+  }
+}
+.col6{
+  .lvBlockItem{
+    width: 16.66%;
+  }
+}

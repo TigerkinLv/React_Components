@@ -1,0 +1,27 @@
+.lvSearch{
+  box-shadow: 2px 5px 10px rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 5px;
+  position: relative;
+  .input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 32px;
+    box-sizing: border-box;
+    &::placeholder{
+      font-size: 13px;
+      color: #ccc;
+    }
+  }
+  .searchImg{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+  }
+}

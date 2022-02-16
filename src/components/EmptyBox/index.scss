@@ -1,0 +1,13 @@
+.lv_emptyBox{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  img{
+    width: 250px;
+  }
+  .txt{
+    color: #666;
+    text-align: center;
+  }
+}

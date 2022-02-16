@@ -1,0 +1,27 @@
+.lvBlockTxt{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  // margin: 16px;
+  .lvBlockTxtItem{
+    box-sizing: border-box;
+    .item{
+      box-shadow: 0 5px 25px rgba(55, 58, 64, 0.15);
+      width: 90%;
+      padding: 14px 0;
+      text-align: center;
+      border-radius: 6px;
+      margin:10px auto;
+    }
+  }
+}
+.col3 .lvBlockTxtItem{
+  width: 33.33%;
+}
+.col4 .lvBlockTxtItem{
+  width: 25%;
+}
+.col5 .lvBlockTxtItem{
+  width: 20%;
+}
+

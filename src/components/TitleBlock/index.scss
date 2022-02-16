@@ -1,0 +1,15 @@
+.lv_titleBlock{
+  margin: 16px;
+  .title{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  .line{
+    height: 6px;
+    width: 70px;
+    background: linear-gradient(135.00deg, #129dee 0%, #0625ff 100%);
+    opacity: 0.3;
+    border-radius: 5px;
+  }
+}

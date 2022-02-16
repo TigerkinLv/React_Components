@@ -14,6 +14,11 @@ import LVTabsDemo from "./containers/LVTabsDemo";
 import NewsItemDemo from "./containers/NewsItemDemo";
 import LVTabsOneDemo from "./containers/LVTabsOneDemo";
 import ListCardWithTagDemo from "./containers/ListCardWithTagDemo";
+import EmptyBoxDemo from "./containers/EmptyBoxDemo";
+import LVBlockDemo from "./containers/LVBlockDemo";
+import LVBLockTxtDemo from "./containers/LVBLockTxtDemo";
+import LVSearchDemo from "./containers/LVSearchDemo";
+import TitleBLockDemo from "./containers/TitleBlockDemo";
 
 const routes = [
   {
@@ -126,6 +131,41 @@ const routes = [
     component: ListCardWithTagDemo,
     meta: {
       title: "带标签的列表",
+    }
+  },
+  {
+    path: "/empty-box-demo",
+    component: EmptyBoxDemo,
+    meta: {
+      title: "空盒子组件",
+    }
+  },
+  {
+    path: "/lv-block-demo",
+    component: LVBlockDemo,
+    meta: {
+      title: "块组件",
+    }
+  },
+  {
+    path: "/lv-block-txt-demo",
+    component: LVBLockTxtDemo,
+    meta: {
+      title: "块组件(文本)",
+    }
+  },
+  {
+    path: "/lv-search-demo",
+    component: LVSearchDemo,
+    meta: {
+      title: "搜索组件",
+    }
+  },
+  {
+    path: "/title-Block-demo",
+    component: TitleBLockDemo,
+    meta: {
+      title: "标题组件",
     }
   },
 ]
