@@ -1,0 +1,19 @@
+.LVImgBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 16px;
+  .item{
+    position: relative;
+    width: 48%;
+    margin-bottom: 10px;
+    .itemImg{
+      width: 100%;
+    }
+    .itemTxt{
+      position: absolute;
+      left: 16px;
+      top: 28px;
+    }
+  }
+}

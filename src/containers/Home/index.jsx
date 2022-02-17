@@ -30,7 +30,10 @@ export default class Home extends Component {
           <NavLink to="/lv-block-demo" className="navLink">块组件</NavLink>
           <NavLink to="/lv-block-txt-demo" className="navLink">块组件(文本)</NavLink>
           <NavLink to="/lv-search-demo" className="navLink">搜索组件</NavLink>
-          <NavLink to="/title-Block-demo" className="navLink">标题组件</NavLink>
+          <NavLink to="/title-block-demo" className="navLink">标题组件</NavLink>
+          <NavLink to="/foods-item-demo" className="navLink">美食组件</NavLink>
+          <NavLink to="/lv-card-list-demo" className="navLink">卡片列表容器组件(图片)</NavLink>
+          <NavLink to="/lv-img-block-demo" className="navLink">图片块组件</NavLink>
         </div>
       </Fragment>
     )

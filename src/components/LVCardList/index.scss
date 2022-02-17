@@ -1,0 +1,24 @@
+.LVCardList{
+  margin: 16px;
+  box-shadow: 0 2px 10px rgba(153, 153, 153, 0.3);
+  border-radius: 8px;
+  .cardTitle{
+    position:relative;
+    .img{
+      width: 100%;
+    }
+    @mixin titleTxt{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .titleLeft{
+      left: 16px;
+      @include titleTxt;
+    }
+    .titleRight{
+      right: 16px;
+      @include titleTxt;
+    }
+  }
+}

@@ -19,6 +19,9 @@ import LVBlockDemo from "./containers/LVBlockDemo";
 import LVBLockTxtDemo from "./containers/LVBLockTxtDemo";
 import LVSearchDemo from "./containers/LVSearchDemo";
 import TitleBLockDemo from "./containers/TitleBlockDemo";
+import FoodsItemDemo from "./containers/FoodsItemDemo";
+import LVCardListDemo from "./containers/LVCardListDemo";
+import LVImgBlockDemo from "./containers/LVImgBlockDemo";
 
 const routes = [
   {
@@ -162,10 +165,31 @@ const routes = [
     }
   },
   {
-    path: "/title-Block-demo",
+    path: "/title-block-demo",
     component: TitleBLockDemo,
     meta: {
       title: "标题组件",
+    }
+  },
+  {
+    path: "/foods-item-demo",
+    component: FoodsItemDemo,
+    meta: {
+      title: "美食组件",
+    }
+  },
+  {
+    path: "/lv-card-list-demo",
+    component: LVCardListDemo,
+    meta: {
+      title: "卡片列表容器组件(图片)",
+    }
+  },
+  {
+    path: "/lv-img-block-demo",
+    component: LVImgBlockDemo,
+    meta: {
+      title: "图片块组件",
     }
   },
 ]
